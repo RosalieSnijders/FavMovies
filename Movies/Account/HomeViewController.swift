@@ -11,6 +11,10 @@ import Firebase
 import FirebaseAuth
 
 class HomeViewController: UIViewController {
+    var user = Auth.auth().currentUser!
+    
+    @IBOutlet weak var userLabel: UILabel!
+    
     @IBAction func logOutAction(_ sender: AnyObject) {
         if Auth.auth().currentUser != nil {
             do {
@@ -24,25 +28,17 @@ class HomeViewController: UIViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateUI()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func updateUI(){
+        userLabel.text = user.email
     }
-    */
 
 }

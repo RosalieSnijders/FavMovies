@@ -18,8 +18,6 @@
 		E63A242C1FE3FAC500D48DD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A242B1FE3FAC500D48DD1 /* LoginViewController.swift */; };
 		E63A242E1FE3FD9300D48DD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A242D1FE3FD9300D48DD1 /* HomeViewController.swift */; };
 		E63A24301FE3FE6B00D48DD1 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A242F1FE3FE6B00D48DD1 /* ResetPasswordViewController.swift */; };
-		E63A24321FE4214400D48DD1 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A24311FE4214400D48DD1 /* Favorites.swift */; };
-		E63A24351FE4364400D48DD1 /* FavoritesSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A24341FE4364400D48DD1 /* FavoritesSave.swift */; };
 		E64D0D381FD8A01B0012B731 /* MovieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D0D371FD8A01B0012B731 /* MovieClass.swift */; };
 		E69CFC8B1FE27D960023641B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69CFC8A1FE27D960023641B /* MovieDetailViewController.swift */; };
 		E6D8FBA61FE3D42A00E29B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6D8FBA51FE3D42A00E29B45 /* GoogleService-Info.plist */; };
@@ -42,8 +40,6 @@
 		E63A242B1FE3FAC500D48DD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E63A242D1FE3FD9300D48DD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E63A242F1FE3FE6B00D48DD1 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		E63A24311FE4214400D48DD1 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
-		E63A24341FE4364400D48DD1 /* FavoritesSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSave.swift; sourceTree = "<group>"; };
 		E64D0D371FD8A01B0012B731 /* MovieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClass.swift; sourceTree = "<group>"; };
 		E69CFC8A1FE27D960023641B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		E6D8FBA51FE3D42A00E29B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -127,9 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				E625A1D51FD88D27001B053C /* MovieController.swift */,
-				E63A24311FE4214400D48DD1 /* Favorites.swift */,
 				E64D0D371FD8A01B0012B731 /* MovieClass.swift */,
-				E63A24341FE4364400D48DD1 /* FavoritesSave.swift */,
 			);
 			path = "Classes And Structs";
 			sourceTree = "<group>";
@@ -285,9 +279,7 @@
 				E63A242A1FE3F8B300D48DD1 /* SignUpViewController.swift in Sources */,
 				E62C81D01FD9DAE2000E6865 /* MovieTableViewController.swift in Sources */,
 				E625A1D61FD88D27001B053C /* MovieController.swift in Sources */,
-				E63A24351FE4364400D48DD1 /* FavoritesSave.swift in Sources */,
 				E63A242C1FE3FAC500D48DD1 /* LoginViewController.swift in Sources */,
-				E63A24321FE4214400D48DD1 /* Favorites.swift in Sources */,
 				E63A242E1FE3FD9300D48DD1 /* HomeViewController.swift in Sources */,
 				E69CFC8B1FE27D960023641B /* MovieDetailViewController.swift in Sources */,
 				E63A24301FE3FE6B00D48DD1 /* ResetPasswordViewController.swift in Sources */,

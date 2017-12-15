@@ -47,7 +47,6 @@ class SignUpViewController: UIViewController {
             }
         }
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

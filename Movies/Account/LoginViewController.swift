@@ -4,7 +4,7 @@
 //
 //  Created by Rosalie Snijders on 15-12-17.
 //  Copyright © 2017 Rosalie Snijders. All rights reserved.
-//
+//  
 
 import UIKit
 import Firebase
@@ -61,7 +61,4 @@ class LoginViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-
-
 }

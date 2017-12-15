@@ -1,6 +1,8 @@
 import Foundation
 import UIKit
 
+
+//Create URLquery to retrieve the data from the API
 extension URL {
     func withQueries(_ queries: [String: String]) -> URL? {
         var components = URLComponents(url: self, resolvingAgainstBaseURL: true)
@@ -10,6 +12,7 @@ extension URL {
     }
 }
 
+//Class to fetch items from API
 class MovieController {
     static let shared = MovieController()
     

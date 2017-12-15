@@ -20,37 +20,7 @@ class MyFavorites: UITableViewController, AddToFavoritesDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let savedFavs = Movie.loadFavs() {
-            myFavorites = savedFavs
-        } else {
-            myFavorites = []
-        }
-        
         navigationItem.leftBarButtonItem = editButtonItem
-        
-//        let ref: DatabaseReference! = Database.database().reference().child("favorites")
-//
-//        ref.observe(.value, with: { (snapshot) in
-//
-//            if snapshot.childrenCount > 0 {
-//                self.myFavorites = []
-//                for favorites in snapshot.children.allObjects as! [DataSnapshot] {
-//
-//                    let favoriteObject = favorites.value as? [String: AnyObject]
-//                    let email = favoriteObject?["email"]
-//                    let id = favoriteObject?["id"]
-//                    let MovieTitle = favoriteObject!["MovieTitle"]
-//
-//                    let movieToBeAdded = Favorite(id: id as! String, email: email as! String, MovieTitle: MovieTitle as! String)
-//
-//                    self.myFavorites.append(movieToBeAdded)
-//                }
-//                self.tableView.reloadData()
-//            }
-//
-//        })
-        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -80,6 +50,7 @@ class MyFavorites: UITableViewController, AddToFavoritesDelegate {
         }
     }
     
+    // Function to add Movies to the myFavorites array to call in the MovieDetailViewController
     func added(movieItem: Movie) {
         myFavorites.append(movieItem)
         let count = myFavorites.count

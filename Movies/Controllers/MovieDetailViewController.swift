@@ -42,6 +42,7 @@ class MovieDetailViewController: UIViewController {
         addToFavorites.layer.cornerRadius = 5.0
     }
     
+    // Function to call the function to add a movie to the FavoritesList and call the function to add the movie to the Firebase
     @IBAction func addButton(_ sender: Any) {
         UIView.animate(withDuration: 0.2) {
         self.addToFavorites.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
@@ -49,9 +50,9 @@ class MovieDetailViewController: UIViewController {
         }
         delegate?.added(movieItem: movieItem)
         addMovie()
-        //Movie.saveToFirebase(userID: user!)
     }
     
+    // Function to add the movies to the FireBase
     func addMovie(){
         let key = ref.childByAutoId().key
 

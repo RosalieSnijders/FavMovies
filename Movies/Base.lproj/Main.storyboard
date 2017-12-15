@@ -63,7 +63,7 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteCell" textLabel="9BW-lR-Oey" detailTextLabel="Nq1-K7-6FF" imageView="moC-5J-vk7" style="IBUITableViewCellStyleValue1" id="CM4-uH-MOU">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CM4-uH-MOU" id="zrc-PO-18s">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CM4-uH-MOU" id="zrc-PO-18s">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -446,8 +446,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zup-eS-n8O">
+                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IO1-cg-R6N">
-                                <rect key="frame" x="160" y="318" width="55" height="30"/>
+                                <rect key="frame" x="75" y="568" width="225" height="30"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
                                     <action selector="logOutAction:" destination="6Ee-Me-sRl" eventType="touchUpInside" id="UOu-yW-ok4"/>
@@ -456,14 +462,20 @@
                         </subviews>
                         <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="IO1-cg-R6N" firstAttribute="centerX" secondItem="4NU-ae-H7G" secondAttribute="centerX" id="2bB-Po-TtN"/>
+                            <constraint firstItem="Zup-eS-n8O" firstAttribute="centerX" secondItem="4NU-ae-H7G" secondAttribute="centerX" id="C7A-nz-h5b"/>
+                            <constraint firstItem="Zup-eS-n8O" firstAttribute="centerY" secondItem="4NU-ae-H7G" secondAttribute="centerY" id="SvG-dl-TNU"/>
                             <constraint firstItem="uyL-Hs-kdF" firstAttribute="centerX" secondItem="4NU-ae-H7G" secondAttribute="centerX" id="dnC-MA-OAi"/>
+                            <constraint firstItem="JHA-Sm-TNW" firstAttribute="trailing" secondItem="IO1-cg-R6N" secondAttribute="trailing" constant="75" id="dwD-M2-XFP"/>
+                            <constraint firstItem="JHA-Sm-TNW" firstAttribute="bottom" secondItem="IO1-cg-R6N" secondAttribute="bottom" constant="20" id="fSN-kj-4VQ"/>
                             <constraint firstItem="uyL-Hs-kdF" firstAttribute="top" secondItem="JHA-Sm-TNW" secondAttribute="top" constant="20" id="nfe-GV-YPH"/>
-                            <constraint firstItem="IO1-cg-R6N" firstAttribute="centerY" secondItem="4NU-ae-H7G" secondAttribute="centerY" id="s6m-83-aj8"/>
+                            <constraint firstItem="IO1-cg-R6N" firstAttribute="leading" secondItem="JHA-Sm-TNW" secondAttribute="leading" constant="75" id="tvS-b6-7NO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JHA-Sm-TNW"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Account" id="ivg-sm-hXn"/>
+                    <connections>
+                        <outlet property="userLabel" destination="Zup-eS-n8O" id="B3A-wx-Cuz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfP-Ob-CBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

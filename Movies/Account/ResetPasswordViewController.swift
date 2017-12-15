@@ -54,8 +54,4 @@ class ResetPasswordViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-
-
-
 }
