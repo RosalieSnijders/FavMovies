@@ -2,8 +2,6 @@
 
 FavMovies is een app waarin Films uit een The Movie DataBase worden geladen en waarbij je de films kan "Favoriten". Voor de Login/Signup/ResetPassword codes is de tutorial van https://www.appcoda.com/firebase-login-signup/ gebruikt. Voor de connectie met FireBase is de tutorial van https://www.simplifiedios.net/firebase-realtime-database-tutorial/#Fetching_Values_from_Firebase gebruikt.
 
-![BetterCodeHubl](https://i.imgur.com/lOe4uwT.png)
-
 ![AccountPage](https://i.imgur.com/TksK9sO.png)
 ![LoginPage](https://i.imgur.com/9Z2Reru.png)
 ![MovieDetails](https://i.imgur.com/9WWmF1V.png)
