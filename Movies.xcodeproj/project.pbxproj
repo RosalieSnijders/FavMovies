@@ -97,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				E625A1C31FD88D0D001B053C /* AppDelegate.swift */,
-				E6EB3BF11FE3218600908BEF /* Account */,
-				E63A24271FE3EEE000D48DD1 /* Controllers */,
+				E6EB3BF11FE3218600908BEF /* AccountControllers */,
+				E63A24271FE3EEE000D48DD1 /* AppControllers */,
 				E63A24331FE4357200D48DD1 /* Classes And Structs */,
 				E625A1C71FD88D0D001B053C /* Main.storyboard */,
 				E625A1CA1FD88D0D001B053C /* Assets.xcassets */,
@@ -109,14 +109,14 @@
 			path = Movies;
 			sourceTree = "<group>";
 		};
-		E63A24271FE3EEE000D48DD1 /* Controllers */ = {
+		E63A24271FE3EEE000D48DD1 /* AppControllers */ = {
 			isa = PBXGroup;
 			children = (
 				E62C81CF1FD9DAE2000E6865 /* MovieTableViewController.swift */,
 				E6EB3BEF1FE314D000908BEF /* MyFavorites.swift */,
 				E69CFC8A1FE27D960023641B /* MovieDetailViewController.swift */,
 			);
-			path = Controllers;
+			path = AppControllers;
 			sourceTree = "<group>";
 		};
 		E63A24331FE4357200D48DD1 /* Classes And Structs */ = {
@@ -128,7 +128,7 @@
 			path = "Classes And Structs";
 			sourceTree = "<group>";
 		};
-		E6EB3BF11FE3218600908BEF /* Account */ = {
+		E6EB3BF11FE3218600908BEF /* AccountControllers */ = {
 			isa = PBXGroup;
 			children = (
 				E63A24291FE3F8B300D48DD1 /* SignUpViewController.swift */,
@@ -136,7 +136,7 @@
 				E63A242D1FE3FD9300D48DD1 /* HomeViewController.swift */,
 				E63A242F1FE3FE6B00D48DD1 /* ResetPasswordViewController.swift */,
 			);
-			path = Account;
+			path = AccountControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
