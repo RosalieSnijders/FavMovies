@@ -9,3 +9,4 @@ FavMovies is een app waarin Films uit een The Movie DataBase worden geladen en w
 ![MovieDetails](https://i.imgur.com/9WWmF1V.png)
 ![MovieList](https://i.imgur.com/znsett5.png)
 ![MyFavorites](https://i.imgur.com/wZBkkPX.png)
+![Firebase](https://i.imgur.com/qmih0mk.png)
